@@ -1,0 +1,133 @@
+/* ComplaintForm.css */
+.complaint-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #16213e;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .nav-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    color: #1a1a2e;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #0f3460;
+    border-radius: 8px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .service-info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #1a1a2e;
+    border: 1px solid #4a69bd;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: vertical;
+  }
+  
+  .severity-checkbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .severity-checkbox label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .severity-checkbox input {
+    margin-right: 10px;
+    width: auto;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #4a69bd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #1e3799;
+  }

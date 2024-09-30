@@ -1,0 +1,69 @@
+
+.container-fluid, .row {
+  height: 100vh;
+}
+
+.login-left {
+  background-color: #1a1a2e;
+  padding: 2rem;
+  /* opacity: 0.7.5; */
+}
+
+.login-right {
+  background-image: url('../assets/building.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  color: rgb(218, 215, 215);
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #ced4da;
+  padding: 0.75rem 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #80bdff;
+}
+
+.form-check-input {
+  border-radius: 0;
+  color: rgb(231, 231, 231);
+}
+
+.forgot-password {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #6c5ce7;
+  border-color: #6c5ce7;
+  border-radius: 0;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #5b4cc8;
+  border-color: #5b4cc8;
+}

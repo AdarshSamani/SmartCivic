@@ -1,0 +1,116 @@
+/* Dashboard.css */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    color: white;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #16213e;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .nav-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .nav-button.active {
+    background-color: #0f3460;
+  }
+
+  .nav-button:hover{
+    background-color: #1a508b;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  .st{
+    font-size: 2.5rem;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat-box {
+    background-color: #0f3460;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    position: relative;
+  }
+  
+  .indicator {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  .red { background-color: #e94560; }
+  .yellow { background-color: #fca311; }
+  .green { background-color: #4caf50; }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .service-button {
+    padding: 20px;
+    background-color: #0f3460;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height: 140px;
+  }
+  
+  .service-button:hover {
+    background-color: #1a508b;
+  }
+  
+  .service-button.emergency {
+    background-color: #e94560;
+  }
+  
+  .service-button.emergency:hover {
+    background-color: #ba2d0b;
+  }
