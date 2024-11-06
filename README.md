@@ -1,5 +1,4 @@
 # SmartCivic
-SmartCivic:
 SmartCivic is a utility management application built with the MERN stack, designed to facilitate efficient complaint handling within a building. The system enables users to submit complaints, allows admins to manage and assign tasks, and provides workers with tools to resolve issues in a streamlined way.
 
 Features
